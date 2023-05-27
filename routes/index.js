@@ -68,7 +68,7 @@ app.delete('/notes/:id', (req, res) => {
     readFromFile('./db/db.json', (err, data) => {
         if(err) throw err;
         for(let i = 0; i < data.length; i++ ){
-            if(data[i] === trashNote.id){
+            if(data[i].id === trashNote.id){
                 const updatedData = data.splice(i, 1);
                 writeToFile('./db/db.json', updatedData);
             }
