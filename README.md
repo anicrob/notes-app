@@ -33,7 +33,7 @@ npm run start
 
 ## Contributions
 
-Starter code (front end/public file) provided by UNC; back end created by anicrob
+Starter code (front end/public file) provided by UNC; back end created by anicrob with DELETE method assistance from UNC tutor
 
 
 ## Link to Repo and Deployed App
